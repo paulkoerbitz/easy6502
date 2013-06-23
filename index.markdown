@@ -275,7 +275,7 @@ If the result of the addition is larger than a single byte, the address wraps ar
 
 ###Zero page,Y: `$c0,Y`###
 
-This is the equivalent of zero page,X, but can only be used with `LDX` and `STX`.
+This is the equivalent of zero page,X, but using the `Y` register and can only be used with `LDY` and `STY`.
 
 ###Absolute,X and absolute,Y: `$c000,X` and `$c000,Y`###
 
